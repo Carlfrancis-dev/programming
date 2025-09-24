@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  color: blue;
+}
+
+.left-part {
+  max-width: 500px;
+}
+
+.Account {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Account img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+  transition: 0.3s;
+}
+
+.Account img:hover {
+  border-color: #1877f2;
+}
+
+.name {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #1c1e21;
+}
+
+.right-part {
+  margin-left: 50px;
+}
+
+.login-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: auto;
+  margin: 8px 0;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #1877f2;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #166fe5;
+}
+
+.Create {
+  background: #42b72a;
+}
+
+.Create:hover {
+  background: #36a420;
+}
